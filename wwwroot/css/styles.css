@@ -1,0 +1,38 @@
+body{
+    font-family: cursive;
+    font-size: 20px;
+}
+.container{
+    margin: 50px auto;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: space-around;
+    height: 320px;
+}
+.btn{
+    text-align: end;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 2px black;
+    font-size: 15px;
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+}
+.sub-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
